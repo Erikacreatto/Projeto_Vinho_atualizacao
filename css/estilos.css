@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playwrite+CU:wght@100..400&family=SUSE:wght@100..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(159, 157, 157);
+    font-family: "SUSE", sans-serif;
+  }
+  
+  #container {
+    margin: auto;
+    width: 90%;
+  }
+  
+  #header,
+  #nav,
+  #content {
+    float: left;
+  }
+  
+  #header {
+    width: 100;
+    background-color: rgb(147, 12, 12);
+    height: 200px;
+    margin-bottom: 1%;
+    font-family: "Playwrite CU", cursive;
+    
+    }
+      
+    #header img {
+        width: 100px;
+      }
+  
+  #header #direita,
+  #header #esquerda {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  #header #esquerda {
+    margin-top: 7.5%;
+  }
+
+body {
+    background-color: rgb(218, 217, 217);
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+  }
+
+#header {
+    background-color: rgb(86, 20, 20);
+    width: 100%;
+    float: left;
+    color: rgb(242, 242, 248);
+    text-align: center;
+    margin-bottom: 10px
+}
+#header,
+#nav,
+#content {
+  float: left;
+}
+
+#header {
+  width: 100%;
+  background-color: #770d0d;
+  height: 200px;
+  margin-bottom: 1%;
+}
+
+#header img {
+  width: 100px;
+}
+
+#header #direita,
+#header #esquerda {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#header #esquerda {
+  margin-top: 7.5%;
+}
+
+#nav {
+    background-color: rgb(250, 247, 247);
+    width: 20%;
+    float: left;
+    color: azure;
+    margin-right: 1%;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+#content {
+    background-color:rgb(227, 227, 232);
+    width: 79%;
+    float: left;
+    color: rgb(63, 58, 114);
+    text-align:center;
+    margin-bottom: 10px;
+}
+#content {
+    width: 75%;
+    float: left;
+    background-color: #fff;
+    padding: 2%;
+    text-align: justify;
+  }
+  
+  #content h1,
+  #content h2,
+  #content h3,
+  #content h4 {
+    margin-bottom: 2%;
+  }
+  
+  #nav ul {
+    list-style-type: none;
+    background-color: #fcfefd;
+  }
+  
+  #nav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  #nav li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .active {
+    background-color: rgb(86, 20, 20);
+   }
+  
+   #nav .active a {
+  color: #ffffff;
+   }
+   
+p{
+  text-align: justify;
+  text-indent: 50px;
+  padding: 20px;
+  margin: top 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+image {
+text-align: center;
+padding: 10px;
+}
+
+
+
+#footer {
+    background-color: rgb(86, 20, 20);
+    width: 100%;
+    float: left;
+    color:white;
+    text-align:center;
+    margin-bottom: 10px;
+}
